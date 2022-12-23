@@ -17,6 +17,5 @@ RSpec.configure do |config|
     c.syntax = :expect
   end
 
-  config.include CsvFilePaths
   config.include WithThisThenContext
 end
