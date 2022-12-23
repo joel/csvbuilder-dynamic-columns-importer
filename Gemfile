@@ -15,4 +15,4 @@ gem "rubocop-performance"
 gem "rubocop-rake"
 gem "rubocop-rspec"
 
-gem "csvbuilder-dynamic-columns-core", path: "../csvbuilder-dynamic-columns-core"
+# gem "csvbuilder-dynamic-columns-core", path: "../csvbuilder-dynamic-columns-core"
