@@ -4,7 +4,7 @@ module Csvbuilder
   module Dynamic
     module Columns
       module Importer
-        VERSION = "0.1.0"
+        VERSION = "0.1.1"
       end
     end
   end

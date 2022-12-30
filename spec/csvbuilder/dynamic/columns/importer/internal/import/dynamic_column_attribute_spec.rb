@@ -25,7 +25,7 @@ module Csvbuilder
           subject(:unformatted_value) { instance.unformatted_value }
 
           it "returns an array of the formatted_cell" do
-            expect(instance).to receive(:formatted_cells).and_call_original
+            expect(instance).to receive(:source_cells).and_call_original
             expect(instance).to receive(:formatted_headers).and_call_original
 
             expect(unformatted_value).to eql source_cells

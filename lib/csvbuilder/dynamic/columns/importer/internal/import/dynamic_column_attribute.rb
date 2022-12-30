@@ -15,8 +15,8 @@ module Csvbuilder
       end
 
       def unformatted_value
-        formatted_cells.zip(formatted_headers).map do |formatted_cell, source_headers|
-          call_process_cell(formatted_cell, source_headers)
+        source_cells.zip(formatted_headers).map do |source_cell, formatted_header|
+          call_process_cell(source_cell, formatted_header)
         end
       end
 
