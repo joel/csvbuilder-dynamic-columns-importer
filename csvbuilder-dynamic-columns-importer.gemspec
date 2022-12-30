@@ -31,9 +31,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "activesupport", ">= 5.2", "< 8"
-  spec.add_dependency "csvbuilder-core"
-  spec.add_dependency "csvbuilder-dynamic-columns-core"
-  spec.add_dependency "csvbuilder-importer"
+  spec.add_dependency "csvbuilder-core", "~> 0.1"
+  spec.add_dependency "csvbuilder-dynamic-columns-core", "~> 0.1"
+  spec.add_dependency "csvbuilder-importer", "~> 0.1"
 
   spec.metadata["rubygems_mfa_required"] = "true"
 end
